@@ -1,6 +1,6 @@
 ﻿namespace calcolatore
 {
-    partial class Form1
+    partial class CALCULATOR
     {
         /// <summary>
         /// Variabile di progettazione necessaria.
@@ -28,10 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // CALCULATOR
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(284, 461);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Name = "CALCULATOR";
+            this.Text = "CALCULATOR";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
